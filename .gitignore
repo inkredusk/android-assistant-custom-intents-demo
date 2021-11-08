@@ -88,3 +88,4 @@ lint/tmp/
 .settings/
 app/.settings/org.eclipse.buildship.core.prefs
 app/.classpath
+app/build
