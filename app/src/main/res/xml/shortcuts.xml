@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--sample shortcut-->
+    <shortcut
+        android:icon="@mipmap/ic_launcher"
+        android:enabled="true"
+        android:shortcutId="get_fastest_route"
+        android:shortcutLongLabel="@string/shortcut_long_label"
+        android:shortcutShortLabel="@string/shortcut_label">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.kb.androidcustomintentsdemo"
+            android:targetClass="com.kb.androidcustomintentsdemo.MainActivity"
+            android:data="mylocationapp://fastestroute.com/app-custom-requests/?origin=Mumbai&amp;dest=Chennai" />
+
+
+    </shortcut>
+
+</shortcuts>

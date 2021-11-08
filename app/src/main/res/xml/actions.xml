@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<action intentName="custom.actions.intent.GET_FASTEST_ROUTE" queryPatterns="@array/fastest_route_queries">
+    <parameter name="origin" type="https://schema.org/Text" />
+    <parameter name="dest" type="https://schema.org/Text" />
+
+    <fulfillment urlTemplate="mylocationapp://fastestroute.com/app-custom-requests/{?origin,dest}">
+        <parameter-mapping intentParameter="origin" urlParameter="origin" />
+        <parameter-mapping intentParameter="dest" urlParameter="dest" />
+    </fulfillment>
+</action>

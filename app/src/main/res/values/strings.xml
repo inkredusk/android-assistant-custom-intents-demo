@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fast Route</string>
+
+    <string name="shortcut_label">Get Fastest Route</string>
+    <string name="shortcut_long_label">Fetch me the fastest route</string>
+    <string name="shortcut_disabled_label">The fastest route shortcut is disabled</string>
+
+    <string name="api_key">insert your Google maps API key</string>
+
+    <string-array name="fastest_route_queries">
+        <item>get fastest route from $origin to $dest</item>
+        <item>fetch fastest route from $origin to $dest</item>
+        <item>quickest route from $origin to $dest</item>
+        <item>fetch route from $origin to $dest</item>
+        <item>get route from $origin to $dest</item>
+        <item>tell me best way from $origin to $dest</item>
+    </string-array>
+
+</resources>
